@@ -6,8 +6,9 @@ def create_an_array
   famous_cats = ["bell","dell","spell","fell"]
 end
 
-def add_element_to_end_of_array(famous_cat,hell)
-  famous_cats.push("hell")
+def add_element_to_end_of_array(array,element)
+  array << element
+  
 end
 
 def add_element_to_start_of_array(array, element)
